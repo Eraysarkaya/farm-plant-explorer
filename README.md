@@ -11,8 +11,8 @@ pip install -r requirements.txt
 python chatbot.py
 ```
 
-Windows'ta sanal ortamı `.venv\Scripts\activate` ile açın. Giriş dosyasının adı `chatbot.py` olsa da uygulama sohbet botu değil, bitki arama arayüzüdür. Boş arama ve ağ/API hataları için temel hata yönetimi içerir.
+Windows'ta sanal ortamı `.venv\Scripts\activate` ile açın. Giriş dosyasının adı `chatbot.py` olsa da uygulama sohbet botu değil, bitki arama arayüzüdür. Boş arama, ağ kesintisi ve geçersiz API yanıtları için temel hata yönetimi içerir. Bitki bilgilerini almak için internet bağlantısı gerekir.
 
 ## Lisans
 
-MIT.
+[MIT](LICENSE).

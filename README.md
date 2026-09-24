@@ -1,22 +1,18 @@
 # Farm Plant Explorer
 
-A small Kivy desktop learning project that looks up plant information through the OpenFarm API. The entry-point filename is `chatbot.py`, but the application is a plant lookup interface.
+OpenFarm API üzerinden bitki bilgisi arayan küçük bir Kivy masaüstü uygulaması. Python ile API kullanımı ve temel masaüstü arayüzü denemek için geliştirilmiştir.
 
-## Run
+## Çalıştırma
 
 ```bash
 python -m venv .venv
-.venv\Scripts\activate
+source .venv/bin/activate
 pip install -r requirements.txt
 python chatbot.py
 ```
 
-The application validates empty input and handles network, HTTP, and invalid-response failures without crashing.
+Windows'ta sanal ortamı `.venv\Scripts\activate` ile açın. Giriş dosyasının adı `chatbot.py` olsa da uygulama sohbet botu değil, bitki arama arayüzüdür. Boş arama ve ağ/API hataları için temel hata yönetimi içerir.
 
-## Project scope
+## Lisans
 
-This project demonstrates Python API integration and a Kivy user interface.
-
-## License
-
-MIT
+MIT.

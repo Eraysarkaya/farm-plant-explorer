@@ -1,6 +1,8 @@
 # Farm Plant Explorer
 
-Bitki adı yazarak yetiştirme bilgilerini aramaya yarayan küçük bir masaüstü uygulaması. Verileri OpenFarm API'den alır ve Kivy arayüzünde gösterir; Python ile API ve masaüstü arayüzü pratiği için geliştirilmiştir.
+Bitki adıyla yetiştirme bilgisi aramaya yarayan küçük bir masaüstü uygulaması.
+
+OpenFarm API üzerinden bitki bilgisi arayan küçük bir Kivy masaüstü uygulaması. Python ile API kullanımı ve temel masaüstü arayüzü denemek için geliştirilmiştir.
 
 ## Çalıştırma
 
